@@ -15,10 +15,10 @@ const Modal = ({ setShowModal }) => {
   return ReactDOM.createPortal(
     <div
       ref={modalRef}
-      className='container fixed top-0 left-0 bottom-0 right-0 h-full flex justify-center items-center bg-black/70'
+      className='fixed top-0 left-0 bottom-0 right-0 h-full flex justify-center items-center bg-black/70'
       onClick={closeModal}
     >
-      <div className='modal z-[1] w-[350px] h-[220px] bg-white flex items-center justify-center rounded-md relative'>
+      <div className='modal z-10 w-[350px] h-[220px] bg-white flex items-center justify-center rounded-md relative'>
         <h2
           className='text-2xl font-bold
       '

@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 * {
   margin: 0;
@@ -10,4 +10,17 @@
 
 body {
   font-family: sans-serif;
+}
+
+.container .modal {
+  animation: animate 0.3s;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
